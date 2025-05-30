@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf") format("ttf");
+    font-weight: 4;
+    font-style: normal;
+    font-display: swap;
+}
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+img {
+    display: block;
+}
