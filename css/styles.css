@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Roboto";
     src: url("../fonts/Roboto-Regular.ttf") format("ttf");
-    font-weight: 4;
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
@@ -13,7 +13,143 @@ html {
 }
 body {
     font-family: "Roboto", sans-serif;
+    font-weight: 400;
 }
 img {
     display: block;
+}
+.header {
+}
+.container {
+    width: 1440px;
+}
+.headline {
+    padding-top: 10px;
+    padding-bottom: 9px;
+    text-align: center;
+    background-color: #B36050;
+}
+.headline__text {
+    font-size: 17px;
+    line-height: 160%;
+    color: #f1d3b9;
+}
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu__nav {
+    display: flex;
+    list-style: none;
+}
+.header__menu__nav li {
+    margin-right: 30px;
+}
+.header__menu__nav li:last-child {
+    margin-right: 0;
+}
+.header__menu__nav li a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #b4604d;
+}
+.header__menu__logo {
+    padding-right: 20%;
+}
+.header__menu__profile {
+    display: flex;
+    padding-top: 19px;
+    padding-right: 10px;
+    position: relative;
+}
+.header__menu__profile::after {
+    content: "0";
+    position: absolute;
+    top: 37%;
+    left: 90%;
+    font-size: 15px;
+    color: #b4604d;
+}
+.header__menu__acc {
+    font-size: 14px;
+    line-height: 160%;
+    color: #b45f4d;
+    text-transform: capitalize;
+    margin-right: 8px;
+    text-decoration: none;
+}
+.header__menu__basket {
+    width: 20px;
+    height: 21px;
+}
+.header__theme {
+    background-image: url(../img/Bg_header.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 332px;
+    padding-bottom: 55px;
+}
+.header__btn {
+    width: 128px;
+    height: 48px;
+    background-color: #b45f4d;
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 169%;
+    color: #fff;
+    border: none;
+}
+.header__topic {
+    background-color: #a9ae8d;
+    padding: 69px 0 69px 70px;
+    color: #f6f4ec;
+}
+.header__topic__text {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 160%;
+}
+.header__h1 {
+    font-size: 33px;
+    line-height: 194%;
+}
+.header__topic__link {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #f6f4ec;
+}
+
+.options {
+    background-color: #f6f4ec;
+}
+.text-h2 {
+    font-size: 23px;
+    line-height: 170%;
+    text-transform: capitalize;
+    text-align: center;
+    color: #b45f4d;
+}
+.options__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 80px;
+    justify-items: center;
+}
+.optioms__grid__item {
+}
+.options__img {
+}
+.text-h4 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #b45f4d;
+}
+.options__price {
+    font-size: 16px;
+    line-height: 100%;
+    color: #b45f4d;
 }
